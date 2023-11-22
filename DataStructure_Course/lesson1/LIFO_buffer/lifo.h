@@ -33,8 +33,8 @@ typedef enum
 
 //APIs
 LIFO_status LIFO_Init(LIFO_BUF_t* lifo_buf, unsigned int* buf, unsigned int length);	//initialize
-LIFO_status LIFO_Add_item(LIFO_BUF_t* lifo_buf, unsigned int item);						//add item/s
-LIFO_status LIFO_Get_item(LIFO_BUF_t* lifo_buf, unsigned int* item);					//pop last item/s
+LIFO_status LIFO_Add_item(LIFO_BUF_t* lifo_buf, unsigned int item);				//add item/s
+LIFO_status LIFO_Get_item(LIFO_BUF_t* lifo_buf, unsigned int* item);				//pop last item/s
 
 
 #endif /* LIFO_H_ */
